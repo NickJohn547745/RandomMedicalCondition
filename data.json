@@ -1,0 +1,161 @@
+{
+  "conditions": {
+    "Pneumonia": {
+      "symptoms": {
+        "Productive Cough": 0.90,
+        "Fever": 0.90,
+        "Shortness of Breath": 0.90,
+        "Pleuritic Pain": 0.90,
+        "Joint Pain": 0.20,
+        "Muscle Pain": 0.20,
+        "Dullness to Percussion": 0.20,
+        "Confusion": 0.05
+      },
+      "investigations": {
+        "X-ray": "Opacity/consolidation (100%)",
+        "FBC": "Raised WCC (95%)",
+        "O2 Sat": "Reduced (25%)",
+        "Sputum Culture": "Strep Pneum positive (100%)",
+        "CRP": "Raised (50%)"
+      }
+    },
+    "Tuberculosis": {
+      "symptoms": {
+        "Productive Cough": 0.90,
+        "Fever": 0.90,
+        "Weight Loss": 0.20,
+        "Night Sweats": 0.20,
+        "Pleuritic Pain": 0.05,
+        "Haemoptysis": 0.05,
+        "Shortness of Breath": 0.05
+      },
+      "investigations": {
+        "X-ray": "Opacity/consolidation (100%)",
+        "Sputum Culture": "M tuberculosis positive (100%)",
+        "FBC": "Raised WCC (95%)"
+      }
+    },
+	"NSC Lung Cancer": {
+      "symptoms": {
+        "Cough": 0.90,
+		"Shortness of Breath": 0.90,
+        "Haemoptysis": 0.90,
+		"Weight Loss": 0.90,
+		"Fatigue": 0.20,
+		"Confusion": 0.05,
+		"Nausea/Vomiting": 0.05,
+		"Headache": 0.05
+      },
+      "investigations": {
+        "X-ray": "Opacity/consolidation (100%)",
+		"CT": "Mass (100%)",
+		"LFTs": "Elevated (15%)",
+		"FBC": "Anaemia (10%)"
+      }
+    }
+	"Bronchitis": {
+      "symptoms": {
+        "Productive Cough": 0.90,
+        "Fever": 0.20,
+        "Wheeze": 0.05
+      },
+      "investigations": {
+        "CRP": "Raised (50%)"
+      }
+    },
+	"Pneumothorax": {
+      "symptoms": {
+        "Pleuritic Pain": 0.90,
+        "Shortness of Breath": 0.90,
+        "Hyperresonant to Percussion": 0.20,
+		"Tracheal Deviation": 0.05
+      },
+      "investigations": {
+        "X-ray": "Hyperlucency (100%)"
+      }
+    },
+	"Empyema": {
+      "symptoms": {
+        "Fever": 0.90,
+		"Dullness to Percussion": 0.90,
+		"Weight Loss": 0.20,
+		"Pleuritic Pain": 0.20,
+		"Shortness of Breath": 0.20,
+		"Productive Cough": 0.20,
+		"Fatigue": 0.20
+      },
+      "investigations": {
+        "CRP": "Raised (100%)",
+		"FBC": "Raised WCC (100%)",
+		"X-ray": "Loss of Costophrenic Angle (100%)",
+		"Blood Culture": "Positive for Pathogen (60%)",
+		"USS": "Pleural Effusion (80%)"
+      }
+    },
+	"Pleural Effusion": {
+      "symptoms": {
+		"Shortness of Breath": 0.90,
+		"Dullness to Percussion": 0.90,
+		"Pleuritic Pain": 0.20,
+		"Cough": 0.20
+      },
+      "investigations": {
+        "X-ray": "Loss of Costophrenic Angle (100%)",
+		"USS": "Pleural Effusion (100%)",
+		"FBC": "Raised WCC (50%)",
+		"CRP": "Raised (50%)",
+		"Blood Culture": "Positive for Pathogen (25%)"
+      }
+    },
+	"Acute Asthma": {
+      "symptoms": {
+		"Cough": 0.90,
+		"Wheeze": 0.90,
+		"Shortness of Breath": 0.90,
+		"Chest Tightness": 0.90
+		
+      },
+      "investigations": {
+        "X-ray": "Loss of Costophrenic Angle (100%)",
+		"Pulmonary Function Tests": "Reduced PEFR (100%)",
+		"ABG": "low SpO2 (80%)",
+		"X-ray": "Hyperinflation (15%)"
+      }
+    },
+	"Bronchiectasis": {
+      "symptoms": {
+        "Productive Cough": 0.90,
+		"Shortness of Breath": 0.90,
+		"Fever": 0.90,
+		"Fatigue": 0.20,
+		"Haemoptysis": 0.20,
+		"Weight Loss": 0.20,
+		"Wheeze": 0.20,
+		"Pleuritic Pain": 0.05
+      },
+      "investigations": {
+		"X-ray": "",
+        "CT": "",
+		"FBC": ""
+      }
+    },
+	"COPD": {
+      "symptoms": {
+        "Cough": 0.90,
+		"Shortness of Breath": 0.90,
+		"Wheeze": 0.20,
+		"Hyperresonant to Percussion": 0.20,
+		"Headache": 0.05,
+		"Fatigue": 0.05
+      },
+      "investigations": {
+		"Pulmonary Function Tests": "Reduced FEV1 (100%)",
+		"ABG": "low SpO2 (80%)",
+		"X-ray": "Hyperinflation (95%)",
+		"FBC": "Raised WCC (25%)",
+		"Sputum Culture": "Positive for Pathogen (10%)",
+		"CT": "Hyperinflation (100%)"
+      }
+    },
+  }
+}
